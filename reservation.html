@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONLINE RESERVATION</title>
+  <link rel="icon" href="./images/veg/WhatsApp Image 2023-07-30 at 06.48.09.jpg">
+  <link rel="stylesheet" href="nav.css">
+  <script>
+   function submit(){
+    let sub=document.getElementById("para").innerHTML;
+    document.getElementById("para").innerHTML="Thank you! your table is reserved";
+   }
+  
+    function change(){
+      var element=document.body;
+      element.classList.toggle("dark-mode");
+    }
+
+
+  
+  </script>
+</head>
+<body>
+      <div class="container">
+      <div class="navbar">
+        <ul class="navbar1">
+          <ul class="nav"><spam>HOTEL</spam> <h5>SRI KRISNA</h5></ul>
+          <ul class="nav"><a href="main.html" target="_self">MAIN</a></ul>
+          <ul class="nav"><a href="menu.html" target="_self">MENU</a></ul>
+          <ul class="nav"><a href="reservation.html" target="_self">BOOKING</a></ul>
+          <ul class="nav"><a href="new.html" target="_self">HOME</a></ul>
+          <ul class="nav"><a href="about.html" target="_self">ABOUT</a></ul>
+          <ul class="nav">
+            <div id="toggle">
+            <button onclick="change()" id="toggle" type="button">MODE</button>
+            </div></ul>
+        </ul>
+       
+        </div>
+      </div>
+      
+      <div class="container1">
+        <h1>RESERVE YOUR TABLE HERE</h1>
+        
+        
+        <div class="box5">
+         
+          
+          <div class="box1">
+            
+                  <input type="text" placeholder="Enter your name">
+                  <input type="number" placeholder="Enter your mobile number">
+                  <input type="date" placeholder="Enter your date">
+                  <input type="time" placeholder="Enter your time">
+                  <input type="number" placeholder="how many people are come">
+                
+                  <div id="para">
+                    <!-- <p>Thank you! your table is reserved</p> -->
+                    
+                  </div>
+                  
+                  <button type="button" onclick="submit()" style="margin-bottom:20px">SUBMIT</button>
+          </div>
+          <div class="box2">
+            <img src="images/veg/ting-tian-E6DsqnZbZ4o-unsplash.jpg" alt="i" style="width:100%";>
+          </div>
+        </div>
+    </div>
+  
+  
+</body>
+</html>

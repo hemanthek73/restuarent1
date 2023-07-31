@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORDER NOW</title>
+  <link rel="icon" href="./images/veg/WhatsApp Image 2023-07-30 at 06.48.09.jpg">
+  <link rel="stylesheet" href="nav.css">
+  
+  
+  <script>
+    function submit(){
+     let sub=document.getElementById("para1").innerHTML;
+     document.getElementById("para1").innerHTML="Thank you! your order is confirmed";
+    }
+   
+     function change(){
+       var element=document.body;
+       element.classList.toggle("dark-mode");
+     }
+ 
+ 
+   
+   </script>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <ul class="navbar1">
+        <ul class="nav"><spam>HOTEL</spam> <h5>SRI KRISNA</h5></ul>
+        <ul class="nav"><a href="main.html" target="_self">MAIN</a></ul>
+        <ul class="nav"><a href="menu.html" target="_self">MENU</a></ul>
+        <ul class="nav"><a href="reservation.html" target="_self">BOOKING</a></ul>
+        <ul class="nav"><a href="restuarent.html" target="_self">HOME</a></ul>
+        <ul class="nav"><a href="about.html" target="_self">ABOUT</a></ul>
+        <ul class="nav">
+          <div id="toggle">
+          <button onclick="change()" id="toggle" type="button">MODE</button>
+          </div></ul>
+      </ul>
+     
+      </div>
+    </div>
+    
+    <div class="container1">
+      <h1>ORDER YOUR FOOD</h1>
+      
+      <div class="box5">
+       
+        
+        <div class="box1">
+                <input type="text" placeholder="Enter your name">
+                <input type="number" placeholder="Enter your mobile number">
+                <input type="text" placeholder="Enter your address">
+                <input type="time" placeholder="enter the your require">
+                <h4 style="text-align: center;">contact number 123-234-5647</h4>
+                
+                <div id="para1">
+                  <!-- <p>Thank you! your table is reserved</p> -->
+                  
+                </div>
+                <button type="button" onclick="submit()">SUBMIT</button>
+        </div>
+        <div class="box2">
+          <img src="images/veg/pizza-g0aa15052a_1280.jpg" alt="i" style="width:100%";>
+        </div>
+      </div>
+  </div>
+
+
+  
+</body>
+</html>

@@ -597,6 +597,9 @@ h1::after{
   cursor: pointer;
  }
  @media (max-width:600px) {
+  body{
+    cursor: pointer;
+  }
  .main{
   width:100%;
  }
@@ -658,6 +661,36 @@ ul .nav{
   }
   .box5{
     width: 100%;
+    height: 100%;
+  }
+  .box2{
+    display: none;
+  }
+  .box1{
+    width: 100%;
+  }
+  .box1 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box1 .p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  hr{
+    display: none;
+  }
+  .link{
+    text-align: end;
+  }
+  .jack{
+    margin-right: 0%;
+  }
+  .footer{
+    border-top: 3px solid white;
   }
   
  }
